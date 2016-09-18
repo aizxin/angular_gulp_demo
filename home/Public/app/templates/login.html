@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default header_subpage">
+<nd-comnav></nd-comnav>
+</nav>
+<div class="login_c">
+<div class="login_co">
+    <div class="loginleft">
+    <img src="/Public/app/img/jd2.png" alt="">
+    </div>
+    <div class="loginright">
+        <div class="logintab">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a data-target="#home" data-toggle="tab">密码登陆</a>
+                </li>
+                <li><a data-target="#ios" data-toggle="tab">验证码登陆</a>
+                </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                    <div class="inputpw">
+                        <form>
+                            <div class="form-group has-success has-feedback">
+                              <label class="control-label" for="inputSuccess1">手机号</label>
+                              <input type="tel" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess1Status">
+                              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                              <span id="inputSuccess1Status" class="sr-only">(success)</span>
+                            </div>
+                            <div class="form-group has-success has-feedback">
+                              <label class="control-label" for="inputSuccess2">密码</label>
+                              <input type="password" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+                              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                              <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">登陆</button>
+                            <p><a href="">忘记密码</a><a href="" style="float: right;">注册</a></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ios">
+                    <div class="inputpw">
+                        <form>
+                            <div class="form-group has-success has-feedback">
+                              <label class="control-label" for="inputSuccess1">手机号</label>
+                              <input type="text" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess1Status">
+                              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                              <span id="inputSuccess1Status" class="sr-only">(success)</span>
+                            </div>
+                            <div class="form-group has-success has-feedback">
+                              <label class="control-label" for="inputSuccess2">手机验证码</label>
+                              <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+                              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                              <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                            </div>
+                            <p style="text-align: right;">
+                            <button type="submit" class="btn btn-info ">发送验证码</button></p>
+
+                            <button type="submit" class="btn btn-primary btn-block">登陆</button>
+                            <p><a href="">忘记密码</a><a href="" style="float: right;">注册</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<nd-footer></nd-footer>

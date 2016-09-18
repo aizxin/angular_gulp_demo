@@ -1,0 +1,29 @@
+<footer id="footer">
+<div class="foot_bg">
+    <img src="/Public/app/img/slide2.jpg" alt="" >
+</div>
+    <div class="container foot_con" >
+        <div class="row">
+          <div class="col-md-2" ng-repeat="vo in cate">
+               <h4><a href="Tpl/content.html" style="color:#fff;">{{vo.catName}}</a></h4>
+               <ul>
+                   <li ng-repeat="v in vo.articles">{{v.articleTitle}}</li>
+                   <li>更多</li>
+               </ul>
+           </div>
+            <div class="col-md-4">
+                <h4>为什么选择自由旅行</h4>
+                <div class="qqwxwb">
+                    <img id="erweimaqq" src="/Public/app/img/01.png" alt="">
+                    <img id="erweimawx" src="/Public/app/img/02.png" alt="">
+                    <img id="erweimawb" src="/Public/app/img/03.png" alt="">
+                </div>
+                <img id="erweima" src="/Public/app/img/erweima.png" alt="" width="150px" style="display: none;">
+                <ul>
+                  <div ng-bind-html="conF.mallFooter|to_trusted">
+                  </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
